@@ -1,5 +1,11 @@
 # Deauth-attack
 
+### Syntax  
+```
+syntax : deauth <interface> <ap_mac> [<station_mac> [-auth]]  
+sample : deauth mon0 00:11:22:33:44:55 66:77:88:99:AA:BB
+```
+
 
 ## RadioTap Header  
 - IEEE에서 제공하는 RadioTap Header구조
