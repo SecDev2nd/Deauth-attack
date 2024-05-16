@@ -81,8 +81,8 @@ int main(int argc, char *argv[]){
 
 void usage() {
     std::cout << "Syntax is incorrect." << std::endl;
-    std::cout << "syntax : deauth-attack <interface> <ap_mac> [<station_mac> [-auth]]" << std::endl;
-    std::cout << "sample : deauth-attack mon0 00:11:22:33:44:55 66:77:88:99:AA:BB" << std::endl;
+    std::cout << "syntax : deauth <interface> <ap_mac> [<station_mac> [-auth]]" << std::endl;
+    std::cout << "sample : deauth mon0 00:11:22:33:44:55 66:77:88:99:AA:BB" << std::endl;
 }
 
 void catch_signal(int signal) {
