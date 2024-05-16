@@ -1,1 +1,13 @@
 # Deauth-attack
+
+
+## RadioTap Header  
+- IEEE에서 제공하는 RadioTap Header구조
+```
+struct ieee80211_radiotap_header {
+        u_int8_t        it_version;     /* set to 0 */
+        u_int8_t        it_pad;
+        u_int16_t       it_len;         /* entire length */
+        u_int32_t       it_present;     /* fields present */
+} __attribute__((__packed__));
+```
